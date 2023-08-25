@@ -19,8 +19,8 @@
     die("Query failed");
   }
 
-  $_SESSION['message'] = "Task Saved successfully";
-  $_SESSION['message_type'] = "success";
+  $_SESSION['message'] = 'Task Saved successfully';
+  $_SESSION['message_type'] = 'success';
   header('Location: index.php');
 
 } 
