@@ -1,7 +1,7 @@
 <?php
   session_start();
 
-  $scon = mysqli_connect(
+  $conn = mysqli_connect(
     'localhost',
     'root',
     '',
