@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header class="fixed-navbar">
   <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <i class="bi bi-bell-fill"></i>
-        Pagina de tareas
+      <a class="navbar-brand align-elements" href="index.php">
+        <i class="bi bi-bell-fill me-3"></i>
+        <span>Pagina de tareas</span>
       </a>
     </div>
   </nav>
